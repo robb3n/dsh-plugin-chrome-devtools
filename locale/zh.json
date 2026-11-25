@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Chrome DevTools",
+    "description": "挂 chrome-devtools-mcp（stdio），让 agent 驱动并检查一个专属的 Chrome：工具形如 mcp__chrome-devtools__*。"
+  }
+}

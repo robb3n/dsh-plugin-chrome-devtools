@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Chrome DevTools",
+    "description": "Mounts chrome-devtools-mcp (stdio) so agents can drive and inspect a dedicated Chrome: tools appear as mcp__chrome-devtools__*."
+  }
+}

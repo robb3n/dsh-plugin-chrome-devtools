@@ -1,0 +1,13 @@
+- insert:
+    - id: mcp-chrome-devtools
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: chrome-devtools
+        transport: stdio
+        command: npx
+        args:
+          - '-y'
+          - 'chrome-devtools-mcp@1.14.0'
+          - '--userDataDir'
+          - !!js "process.getBuiltinModule('node:path').join(process.getBuiltinModule('node:os').homedir(), '.cache', 'chrome-devtools-mcp', 'dsh-plugin-chrome-devtools')"
+        failOnStartupError: false
